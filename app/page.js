@@ -8,6 +8,7 @@ import HowItWorks from './components/HowItWorks';
 import Njangie from './components/Njangie';
 import Community from './components/Community';
 import Footer from './components/Footer';
+import GlobalUserGrid from './components/connect';
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -21,8 +22,11 @@ export default function Home() {
       <Navigation />
       {isClient && (
         <>
-          <div className="pt-7">
+          {/* <div className="pt-7">
             <Hero />
+          </div> */}
+          <div className="pt-16 ml-8">
+          <GlobalUserGrid />
           </div>
           <Features />
           <HowItWorks />
