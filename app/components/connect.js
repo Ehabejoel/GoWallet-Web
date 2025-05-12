@@ -46,20 +46,19 @@ export default function UserCollage() {
     <div className="w-full bg-white p-4 md:p-8">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
         {/* Left side - Text content */}
-        <div className="w-full md:w-2/5 mb-8 md:mb-0 pr-0 md:pr-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            <span className="block text-gray-900 text-6xl">Your Money</span>
-            <span className="block text-teal-600 text-6xl">Your Way.</span>
-            <span className="block text-gray-900">Solo or Together.</span>
+        <div className="w-full md:w-2/5 mb-8 md:mb-0 pr-0 md:pr-8">          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <span className="block text-gray-900 text-7xl">Your Money</span>
+            <span className="block text-teal-600 text-7xl">Your Way.</span>
+            <span className="block text-gray-900 text-6xl">Solo or Together.</span>
           </h1>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-xl md:text-2xl text-gray-600 mb-10">
            Gowallet helps you save, send, and build wealth with friends, family, and community.
           </p>
-          <div className="flex space-x-4">
-            <button className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-3 px-6 rounded-lg transition-colors">
+          <div className="flex space-x-5">
+            <button className="bg-teal-600 hover:bg-teal-700 text-white font-medium text-lg py-4 px-8 rounded-lg transition-colors">
               Get Started
             </button>
-            <button className="border border-gray-300 hover:border-teal-600 text-gray-800 font-medium py-3 px-6 rounded-lg transition-colors">
+            <button className="border border-gray-300 hover:border-teal-600 text-gray-800 font-medium text-lg py-4 px-8 rounded-lg transition-colors">
               Learn More
             </button>
           </div>
